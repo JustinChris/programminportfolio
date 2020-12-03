@@ -1,0 +1,71 @@
+Dear Student,
+
+I see a lot of improvement on you.
+Good, just follow what I tell to do in class, suppose you will passing this in at least grade B.
+
+Lanjutkan.
+
+Ok.
+Sekarang mari kita ke tahap yang lebih baik. Implementasi semua yang sudah dipelajari.
+
+Buatlah sebuah program minimarket dengan ketentuan:
+1. Program membaca dari database.txt yang berisi
+Nama Produk#Produk ID#Qty Stock
+
+Produk ID adalah huruf depan dari nama produk dan urutan masuk barang
+
+contoh isi file:
+Anggur Segar#AS0001#20
+Jeruk Segar#JS00001#30
+Mangga Harum Manis#MHM00001#50
+(tambahkan lagi 12 item sesuai imajinasi Anda)
+
+2. Setelah program membaca file jika tidak ditemukan maka munculkan tulisan:
+"Database barang tidak ditemukan", dan akhiri program dengan return 1;
+
+3. Jika file ditemukan, baca file dan masukan ke dalam struct
+Produk
+
+4. Setelah dimasukan, tampilkan semua data di layar, kemudian berikan 4 pilihan:
+1. Masukan pembelian.
+2. Tulis data pembelian.
+3. Baca data pembelian.
+4. Keluar.
+
+5. Jika user memilih masukan pembelian, maka:
+a. Masukan kode/nama barang.
+Jika angka ditemukan maka cek di database code barang.
+Jika huruf semua cek di database nama barang.
+b. masukan jumlah pembelian
+b1. cek jumlah pembelian tidak boleh melebihi stock.
+b2. kurangi stock pada database pembelian.
+
+6. Jika user memilih Tulis data pembelian maka cetak kedalam binary file "jualan@.sky"
+Format sebagai berikut:
+Kode Barang#stock awal#stok beli
+contoh:
+
+MHM0001_50_5
+JS0001_30_5
+
+(dalam file binary yang tidak bisa dibuka oleh notepad biasa)
+
+7. Jika user memilih Baca data pembelian, maka baca data binary file "jualan@.sky"
+jika data sesuai dengan stok awal dari load file pertama, maka kurangin stocknya (lanjutkan)
+jika berbeda, tulis error "data backup transaksi salah"
+
+8. Jika user memilih keluar, tutup semua file dan tampilkan selisih barang
+Mangga Harum Manis terbeli 5 dari stok awal 50
+Jeruk.
+
+Yang tidak terbeli adalah:
+Anggur Segar#AS0001#20
+..
+
+(dst)
+
+Terima kasih, good luck,
+kumpulkan video hasil coba menu 1, 2, 3 disini (link YT).
+silakan jadikan content YT jika mau.
+
+**Jika Anda tidak punya wifi (gunakan kuota) dapat menitip pada teman Anda yang kira-kira punya kuota dengan trade-in mengajarkan dia caranya membuat ini / mengajarkan mata kuliah lain mungkin. Be creative :)

@@ -1,0 +1,15 @@
+3 12
+This is a two player game
+Each player play in turns
+#
+SKILLS
+There are several
+skills that the player
+can have
+#
+1 skip
+2 reverse
+3 jump
+#
+1
+

@@ -39,6 +39,7 @@ int main() {
 	puts("===========================================");
 	puts("                  Timer                    ");
 	puts("          Take Care of Your Eyes           ");
+	puts("           By @justin_christians           ");
 	puts("===========================================");
 	puts("");
 	puts("             ..,,;;;;;;,,,,");

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+.background-top-img img{
+    width: 100%;
+}
+.background-top-img{
+    position: relative;
+    overflow: hidden;
+}
+.background-left-img{
+    position: absolute;
+    bottom: 0;
+    left: -500px;
+}
+.background-right-img{
+    position: absolute;
+    bottom: 0;
+    right: -470px;
+}
+.writing{
+    position: absolute;
+    bottom: 100px;
+    left: 30%;
+}
+.writing h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+    font-family: sans-serif;
+}
+.writing p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+}
+.download-now{
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+    background-color: rgb(34, 33, 33);
+    margin-left: 30%;
+
+}
+.download-now h2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.download-now:hover{
+    background-color: rgb(53, 51, 51);
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.logo img{
+    width: 180px;
+}
+.register {
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    border-radius: 25px;
+    background-color: white;
+}
+.register h2{
+    color: black;
+    font-family: sans-serif;
+    font-size: larger;
+    font-family: 30px;
+    text-align: center;
+    padding: 10px 25px;
+}
+.register:hover{
+    background-color: gainsboro;
+}
+.content{
+    padding:50px;
+}
+.content h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.content p{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.content-img {
+    display: flex;
+    justify-content: center;
+}
+.content-img img{
+    width: 50%;
+}

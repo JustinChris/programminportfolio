@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    overflow: hidden;
+}
+.hero-img{
+    position: relative;
+}
+.hero-img img{
+    width: 100%;
+    height: auto;
+}
+.hero-logo{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.hero-logo img{
+    width: 120px;
+}
+.hero-test{
+    border: 6px solid black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
+.hero-test h2{
+    padding: 5px;
+    font-weight: bolder;
+}
+.hero-test:hover{
+    background-color: gray;
+}
+.hero-content{
+    text-align: start;
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    font-size: 25px;
+}
+.hero-char{
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    font-size: 20px;
+}
+.speed{
+    padding: 5px;
+}
+.speed h5{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.speed p{
+    color: white;
+    text-align: center;
+}
+.bag{
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding: 5px;
+}
+.bag h5{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.bag p{
+    color: white;
+    text-align: center;
+}
+.range{
+    padding: 5px;
+}
+.range h5{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.range p{
+    color: white;
+    text-align: center;
+}
+.content-images{
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+.model img{
+    width: 200px;
+    height: auto;
+}
+.model{
+    text-align: center;
+    padding: 10px;
+}
+.content-test{
+    padding: 100px;
+}
+.content-test-text{
+    border: 10px solid black;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    width: 15%;
+    padding: 10px;
+}
+.content-test-text:hover{
+    background-color: gray;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+}
+.footer-images{
+    display: flex;
+    justify-content: center;
+}
+.footer-writing {
+    text-align: center;
+    color: white;
+}
+.footer-images img{
+    width: 150px;
+    padding: 30px;
+}

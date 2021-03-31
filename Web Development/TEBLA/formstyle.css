@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+.hero img{
+    width: 100%;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.nama{
+    justify-content: center;
+
+}
+.TITLE{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    font-size: 70px;
+    left: 20%;
+}
